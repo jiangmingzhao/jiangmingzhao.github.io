@@ -3,7 +3,10 @@
   <entry>
     <title>King of Rock and Roll</title>
     <url>/2020/01/08/5th_Elvis_Presley/</url>
-    <content><![CDATA[<p>Elvis Aron Presley (January 8, 1935 – August 16, 1977) was an American singer and actor. Regarded as one of the most significant cultural icons of the 20th century, he is often referred to as the “King of Rock and Roll” or simply “the King”. His energized interpretations of songs and sexually provocative performance style, combined with a singularly potent mix of influences across color lines during a transformative era in race relations, made him enormously popular—and controversial. Years of prescription drug abuse severely compromised his health, and he died suddenly in 1977 at his Graceland estate at the age of 42.</p>
+    <content><![CDATA[<p>Elvis Aron Presley (January 8, 1935 – August 16, 1977) was an American singer and actor. Regarded as one of the most significant cultural icons of the 20th century, he is often referred to as the “King of Rock and Roll” or simply “the King”. </p>
+<a id="more"></a>
+
+<p>His energized interpretations of songs and sexually provocative performance style, combined with a singularly potent mix of influences across color lines during a transformative era in race relations, made him enormously popular—and controversial. Years of prescription drug abuse severely compromised his health, and he died suddenly in 1977 at his Graceland estate at the age of 42.</p>
 <p>Presley is the best-selling solo artist in the history of recorded music. He was commercially successful in many genres, including pop, country, blues, and gospel. He won three competitive Grammys, received the Grammy Lifetime Achievement Award at age 36, and has been inducted into multiple music halls of fame.</p>
 ]]></content>
   </entry>
@@ -20,11 +23,18 @@
 <ul>
 <li><p>Home menu 404<br>It seems like the issue comes from the theme. When I change the theme to “landscape”, it’s fixed. Don’t know the exact reason</p>
 </li>
-<li><p>Local search<br>$ npm install hexo-generator-searchdb –save<br>Add the following content into the Hexo configuration file</p>
-<h1 id="Local-search"><a href="#Local-search" class="headerlink" title="Local search"></a>Local search</h1><p>search:<br>path: search.xml<br>field: post<br>format: html<br>limit: 10000</p>
+<li><p>Local search</p>
 </li>
 </ul>
+<p>Install hexo-generator-searchdb plugin under the folder jiangmingzhao.github.io/<br>$ npm install hexo-generator-searchdb –save<br>Add the following content into the Hexo configuration file</p>
+<h1 id="Local-search"><a href="#Local-search" class="headerlink" title="Local search"></a>Local search</h1><p>search:<br>  path: search.xml<br>  field: post<br>  format: html<br>  limit: 10000</p>
 <p>Set the “enable” to be “true” in the theme configuration file, under “Local search”</p>
+<ul>
+<li>Read more<br>Add the following text in the post<a id="more"></a>
+
+
+</li>
+</ul>
 <ul>
 <li>subwebsite</li>
 </ul>
