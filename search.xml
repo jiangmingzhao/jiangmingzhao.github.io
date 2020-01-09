@@ -20,8 +20,13 @@
 <ul>
 <li><p>Home menu 404<br>It seems like the issue comes from the theme. When I change the theme to “landscape”, it’s fixed. Don’t know the exact reason</p>
 </li>
-<li><p>subwebsite</p>
+<li><p>Local search<br>$ npm install hexo-generator-searchdb –save<br>Add the following content into the Hexo configuration file</p>
+<h1 id="Local-search"><a href="#Local-search" class="headerlink" title="Local search"></a>Local search</h1><p>search:<br>path: search.xml<br>field: post<br>format: html<br>limit: 10000</p>
 </li>
+</ul>
+<p>Set the “enable” to be “true” in the theme configuration file, under “Local search”</p>
+<ul>
+<li>subwebsite</li>
 </ul>
 ]]></content>
   </entry>
