@@ -54,7 +54,9 @@
 <ul>
 <li><p>Read more<br>Add the following text in the post without #<br>#<!--more--></p>
 </li>
-<li><p>Count number of visits<br>If the theme already support Google Analytics, just sign up for the Google Analytics and get a tracking ID. Then look for a property called google_analytics in your theme’s _config.yml file and fill your tracking ID.</p>
+<li><p>Track traffic<br>If the theme already support Google Analytics, just sign up for the Google Analytics and get a tracking ID. Then look for a property called google_analytics in your theme’s _config.yml file and fill your tracking ID.</p>
+</li>
+<li><p>Display number of visitors<br>It can be added according to <a href="http://ibruce.info/2015/04/04/busuanzi/" target="_blank" rel="noopener">http://ibruce.info/2015/04/04/busuanzi/</a></p>
 </li>
 <li><p>subwebsite</p>
 </li>
