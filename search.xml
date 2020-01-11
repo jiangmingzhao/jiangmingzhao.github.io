@@ -41,7 +41,7 @@
     <url>/2020/01/05/3rd_issues/</url>
     <content><![CDATA[<p>Problems to be figured out</p>
 <ul>
-<li>Home menu 404<br>It seems like the issue comes from the theme. When I change the theme to “landscape”, it’s fixed. Don’t know the exact reason</li>
+<li>Home menu 404<br>It seems like the issue comes from the theme. When I change the theme to other version of Next, it’s fixed. Don’t know the exact reason</li>
 </ul>
 <a id="more"></a>
 
@@ -56,7 +56,7 @@
 </li>
 <li><p>Track traffic<br>If the theme already support Google Analytics, just sign up for the Google Analytics and get a tracking ID. Then look for a property called google_analytics in your theme’s _config.yml file and fill your tracking ID.</p>
 </li>
-<li><p>Display number of visitors<br>It can be added according to <a href="http://ibruce.info/2015/04/04/busuanzi/" target="_blank" rel="noopener">http://ibruce.info/2015/04/04/busuanzi/</a></p>
+<li><p>Display number of visitors<br>It can be added according to <a href="http://ibruce.info/2015/04/04/busuanzi/" target="_blank" rel="noopener">http://ibruce.info/2015/04/04/busuanzi/</a><br>You may need to publish it to see the changes.</p>
 </li>
 <li><p>subwebsite</p>
 </li>
@@ -80,7 +80,7 @@
 <li><p>Git, Homebrew, nodejs, nvm, hexo<br>There are a couple of other options to develop the website, such as Jekyll and Hugo, both very popular. See <a href="https://www.techiediaries.com/jekyll-hugo-hexo/" target="_blank" rel="noopener">https://www.techiediaries.com/jekyll-hugo-hexo/</a> for a comparison<br>Install HomeBrew and Git<br>$ /usr/bin/ruby -e “$(curl -fsSL <a href="https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;" target="_blank" rel="noopener">https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</a><br>$ brew install git</p>
 </li>
 </ul>
-<p>Install nvm and Node.js<br>$ curl <a href="https://raw.github.com/creationix/nvm/master/install.sh" target="_blank" rel="noopener">https://raw.github.com/creationix/nvm/master/install.sh</a> | sh<br>$ nvm install 4</p>
+<p>Install nvm and Node.js<br>$ curl -o- <a href="https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh" target="_blank" rel="noopener">https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh</a> | bash<br>$ nvm install stable<br>Node.js is an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside of a browser.<br>nvm is a version manager of Node.js<br>npm is the package manager for the Node JavaScript platform. It puts modules in place so that node can find them, and manages dependency conflicts intelligently. </p>
 <p>install Hexo<br>$ sudo npm install hexo-cli -g</p>
 <ul>
 <li>Create website, choose theme, change configuration, write post, test, publish<br>$ hexo init username.github.io<br>$ cd username.github.io<br>$ git clone <a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="noopener">https://github.com/iissnan/hexo-theme-next</a> themes/next<br>The theme “Next” has some issue about the Home menu. It would be better to use another theme.</li>
