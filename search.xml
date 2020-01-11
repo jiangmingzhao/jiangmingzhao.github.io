@@ -52,10 +52,12 @@
 <h1 id="Local-search"><a href="#Local-search" class="headerlink" title="Local search"></a>Local search</h1><p>search:<br>  path: search.xml<br>  field: post<br>  format: html<br>  limit: 10000</p>
 <p>Set the “enable” to be “true” in the theme configuration file, under “Local search”</p>
 <ul>
-<li>Read more<br>Add the following text in the post without #<br>#<!--more--></li>
-</ul>
-<ul>
-<li>subwebsite</li>
+<li><p>Read more<br>Add the following text in the post without #<br>#<!--more--></p>
+</li>
+<li><p>Count number of visits<br>If the theme already support Google Analytics, just sign up for the Google Analytics and get a tracking ID. Then look for a property called google_analytics in your theme’s _config.yml file and fill your tracking ID.</p>
+</li>
+<li><p>subwebsite</p>
+</li>
 </ul>
 ]]></content>
   </entry>
